@@ -2,14 +2,14 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     cartItems : 0,
-    amount: 0,
+    amount: 5,
     total: 0,
-    isLoading: true
+    isLoading: true,
 }
 
 const cartSlice = createSlice({
     name: 'cart',
-    initialState
+    initialState,
 })
 
 export default cartSlice.reducer
